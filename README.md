@@ -37,7 +37,7 @@ npx create-react-app docker-react
 cd docker-react
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680939741920/e092ffbb-ccd9-41ff-a43b-e0468f39ef10.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680939741920/e092ffbb-ccd9-41ff-a43b-e0468f39ef10.png)
 
 To run this react application execute the below command in your terminal:
 
@@ -45,7 +45,7 @@ To run this react application execute the below command in your terminal:
 npm run start
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680940175138/75982385-c457-42a9-9205-f203474ceb7c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680940175138/75982385-c457-42a9-9205-f203474ceb7c.png)
 
 ## **Create a Dockerfile**
 
@@ -81,7 +81,7 @@ EXPOSE 3000
 CMD [ "npm", "run", "start" ]
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680941491565/b851a85a-4d83-4a54-8f68-516f1f7f9948.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680941491565/b851a85a-4d83-4a54-8f68-516f1f7f9948.png)
 
 ## Building a Docker Image
 
@@ -105,11 +105,11 @@ The build process may take a few minutes to complete, depending on the size of y
 
 Once the build is complete, you should see a message indicating that the image was successfully built.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680942266760/d82a51a4-f5ed-464c-934d-fbee5e8fc4a7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680942266760/d82a51a4-f5ed-464c-934d-fbee5e8fc4a7.png)
 
 You can see image by doing this:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680942701739/0e4f9cce-9826-4d29-bbb7-a05b0e1a37e4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680942701739/0e4f9cce-9826-4d29-bbb7-a05b0e1a37e4.png)
 
 ## Running the Docker Container
 
@@ -127,11 +127,11 @@ With the `-d` flag, the command returns the ID of the container once it's starte
 
 You can also use the `docker ps` command to see a list of running containers, including the ID of the container running your React application.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680944158733/90854071-ac6f-4203-88d7-fc98a0fb87c6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680944158733/90854071-ac6f-4203-88d7-fc98a0fb87c6.png)
 
 Once the container is running, you should be able to view your React application by navigating to [`http://localhost:3000`](http://localhost:3000) in your web browser.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680944180516/4d5e47ca-3790-4dbb-a673-8f9b0c2bb8da.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680944180516/4d5e47ca-3790-4dbb-a673-8f9b0c2bb8da.png)
 
 Congratulations! You have now successfully deployed your React web application with Docker.
 
@@ -157,7 +157,7 @@ Here's how to push your Docker image to Docker Hub:
 
 3. Enter your Docker Hub username and password when prompted.
 
-   ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945241272/0e9b03d5-cdfa-4c22-b598-5d113929acac.png align="center")
+   ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945241272/0e9b03d5-cdfa-4c22-b598-5d113929acac.png)
 
 4. Tag your Docker image with your Docker Hub username and the name of the repository that you want to push the image to:
 
@@ -173,9 +173,9 @@ Here's how to push your Docker image to Docker Hub:
 
    This command uploads your Docker image to Docker Hub, making it available for others to pull and use.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945447241/45676d07-832d-4308-9292-2a71c04e5430.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945447241/45676d07-832d-4308-9292-2a71c04e5430.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945529516/440c4d2b-cc8f-415e-8e75-c31f26944fe6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680945529516/440c4d2b-cc8f-415e-8e75-c31f26944fe6.png)
 
 ## Pulling and Running the Docker Image
 
